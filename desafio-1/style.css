@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body {
+  font-family: "Public Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+
+}
+
+
+ul{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+    color: #000000;
+}
+
+
+.header{
+    display: flex;
+    padding: 45px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.logo h1{
+    font-size: 2rem;
+    margin-left: 5px;
+}
+
+
+.menu{
+    display: flex;
+    align-items: center;
+}
+
+.menu li a{
+    padding: 10px 5px;
+    transition: 0.3s ease-in-out;
+    margin-left: 1.5rem;
+    font-size: 1.5rem;
+}
+
+.menu li a:hover{
+    background-color: rgba(91, 194, 65, 1);
+    color:rgba(255, 255, 255, 1) ;
+}
+
+
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.main .section-profile.profile-img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 15px 15px;
+}
