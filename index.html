@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
     <meta charset="UTF-8">
@@ -11,38 +11,35 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
         integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <link rel="stylesheet" href="style.css">
     <title>Apresentação Anderson</title>
 </head>
 
 <body>
 
-    <header class="header">
-        <a href="#" class="logo" data-aos="flip-left" data-aos-delay="200">
-            <img src="./assets/perfil (1).png" alt="">
+    <header class="header" id="home">
+        <a href="#" class="logo">
+            <img src="./assets/perfil-1.png" alt="logo-header">
             <h1>Anderson Pocaya</h1>
         </a>
 
         <nav>
-            <ul class="menu" data-aos="flip-left" data-aos-delay="200">
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Sobre</a></li>
-                <li><a href="#">Contato</a></li>
+            <ul class="menu">
+                <li><a href="#home">Início</a></li>
+                <li><a href="#about">Sobre</a></li>
+                <li><a href="#contact">Contato</a></li>
             </ul>
 
         </nav>
     </header>
 
-    <main class="main">
+    <main class="main" id="about">
 
-        <img class="profile-img" src="./assets/perfil (2).png" alt="Minha Foto" data-aos="zoom-out-right" data-aos-delay="300">
+        <img class="profile-img" src="./assets/perfil-2.png" alt="Minha Foto">
 
-        <section class="section-profile">
-            <h1 class="title" data-aos="zoom-out-left" data-aos-delay="400">Sobre Mim</h1>
-            <p class="about" data-aos="zoom-out-left" data-aos-delay="400">Olá, sou o <strong>Anderson Roberto
+        <section class="section-profile" >
+            <h1 class="title">Sobre Mim</h1>
+            <p class="about">Olá, sou o <strong>Anderson Roberto
                     Pocaya</strong>, tenho 30 anos e atualmente resido em
                 <strong>Bauru-SP</strong>. Sou mecânico de manutenção em uma empresa multinacional sediada em
                 Agudos.<br>
@@ -62,7 +59,7 @@
     </main>
 
     <footer class="footer">
-        <div class="footer-icons" >
+        <div class="footer-icons" id="contact">
             <a href="https://github.com/pocaya30" target="_blank">
                 <i class="fa-brands fa-github fa-2x"></i>
             </a>
@@ -72,13 +69,12 @@
         </div>
 
         <div>
-            <img src="./assets/perfil (1).png" alt="logo">
+            <img src="./assets/perfil-1.png" alt="logo-footer">
         </div>
 
         <p>Copyright 2024 | Apresentação Anderson Roberto Pocaya - Todos direitos reservados </p>
     </footer>
 
-    <script src="script.js"></script>
 </body>
 
 </html>

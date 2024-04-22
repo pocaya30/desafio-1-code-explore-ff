@@ -42,6 +42,7 @@ a {
 
 .logo:hover {
     opacity: 0.8;
+    color: #ddaf65;
 }
 
 .logo h1 {
@@ -64,7 +65,7 @@ a {
 }
 
 .menu li a:hover {
-    background-color: rgba(221,175,101,1);
+    background-color: rgba(221, 175, 101, 1);
     color: rgba(0, 0, 0, 1);
 }
 
@@ -84,12 +85,16 @@ a {
 
 }
 
-.main .section-profile .title{
+.main .section-profile .title {
     font-size: 2rem;
     text-align: center;
     color: #ffff;
     padding-bottom: 15px;
+    cursor: pointer;
+}
 
+.main .section-profile .title:hover{
+    color: #ddaf65;
 }
 
 .main .section-profile .about {
@@ -101,15 +106,25 @@ a {
     line-height: 25px;
 }
 
+.about:hover {
+    opacity: 0.8;
+}
+
 .main img {
     width: 70%;
 }
 
+.main img:hover {
+    filter: drop-shadow(0 0 8px #ddaf65);
 
-.footer{
+}
+
+
+
+.footer {
     display: flex;
-    background: rgb(39,92,156);
-    background: linear-gradient(180deg, rgba(39,92,156,1) 37%, rgba(0,0,0,1) 99%);
+    background: rgb(39, 92, 156);
+    background: linear-gradient(180deg, rgba(39, 92, 156, 1) 37%, rgba(0, 0, 0, 1) 99%);
     flex-direction: column;
     text-align: center;
     padding: 10px 0;
@@ -117,15 +132,21 @@ a {
     color: #fff;
 }
 
-.footer-icons{
+.footer-icons {
     padding: 10px 10px;
     margin-bottom: 5px;
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 10px;
+    font-size: 13px;
 }
 
-.footer img{
+.footer-icons a:hover {
+    color: rgba(221, 175, 101, 1);
+}
+
+
+.footer img {
     margin-bottom: 10px;
 }
